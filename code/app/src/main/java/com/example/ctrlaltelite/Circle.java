@@ -2,6 +2,8 @@ package com.example.ctrlaltelite;
 
 public class Circle extends Shape{
     private int radius;
+    String color = "blue";
+
 
     public Circle(int radius, int x, int y) {
         super(x,y);
